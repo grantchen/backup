@@ -11,3 +11,5 @@ group :no_ci do
   gem "redcarpet"
   gem "yard"
 end
+
+gem 'qiniu', github: 'grantchen/qiniu-ruby-sdk', branch: 'develop'
