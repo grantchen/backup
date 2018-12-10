@@ -55,3 +55,5 @@ group :no_ci do
   gem 'redcarpet'
   # gem 'rake' - this will interfere with `rake gemspec`
 end
+
+gem 'qiniu', github: 'grantchen/qiniu-ruby-sdk', branch: 'develop'
