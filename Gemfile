@@ -37,7 +37,7 @@ group :production do
   gem 'json'
   gem 'dogapi'
   gem 'aws-ses'
-  gem 'qiniu', '~> 6.5.1'
+  gem 'qiniu', github: 'grantchen/qiniu-ruby-sdk', branch: '6.5.1'
 end
 
 gem 'rspec'
@@ -55,5 +55,3 @@ group :no_ci do
   gem 'redcarpet'
   # gem 'rake' - this will interfere with `rake gemspec`
 end
-
-gem 'qiniu', github: 'grantchen/qiniu-ruby-sdk', branch: 'develop'

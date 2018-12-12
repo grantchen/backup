@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/grantchen/qiniu-ruby-sdk.git
+  revision: 92acc1e523ad6a37d8512ab2efb68fdb7365e87d
+  branch: 6.5.1
+  specs:
+    qiniu (6.5.1)
+      json (~> 1.8)
+      mime-types (~> 2.4.3)
+      rest-client (~> 1.7.3)
+      ruby-hmac (~> 0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -153,11 +164,6 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    qiniu (6.5.1)
-      json (~> 1.8)
-      mime-types (~> 2.4.3)
-      rest-client (~> 1.7.3)
-      ruby-hmac (~> 0.4)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
@@ -218,7 +224,7 @@ DEPENDENCIES
   open4
   pagerduty
   pry
-  qiniu (~> 6.5.1)
+  qiniu!
   rb-fsevent
   rb-inotify
   redcarpet
@@ -230,4 +236,4 @@ DEPENDENCIES
   yard
 
 BUNDLED WITH
-   1.11.2
+   1.16.4
